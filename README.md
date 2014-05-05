@@ -7,10 +7,13 @@ Forged from runtests (Matt Davis) gist: https://gist.github.com/jiffyclub/401359
 
 ### 1. Install and load extension
 
+```python
 %load_ext ipynbtester
+```
 
 ### 2. Define tests
 
+```python
 def test_my_test_ok():
     assert True == True
 
@@ -19,15 +22,17 @@ def test_my_test_fail():
 
 def test_my_test_error():
     asert True == False
+```
 
 ### 3. Run tests
 
+```python
 %runtests
+```
 
 ### Output
 
-<code>
-
+```text
 Collected 2 tests.
 
 Test function name | Status
@@ -46,8 +51,7 @@ test_my_test_error | NameError("global name 'none' is not defined",)
             Failed | 1
             Errors | 1
          Execution | 0.001 seconds
-
-</code>
+```
 
 ## The [MIT](http://choosealicense.com/licenses/mit/) License
 
