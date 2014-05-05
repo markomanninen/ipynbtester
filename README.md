@@ -21,7 +21,7 @@ def test_my_test_fail():
     assert True == False
 
 def test_my_test_error():
-    assert True == None
+    assert True == none
 ```
 
 ### 3. Run tests
@@ -32,26 +32,7 @@ def test_my_test_error():
 
 ### Output
 
-```text
-Collected 2 tests.
-
-Test function name | Status
----------------------------
-test_my_test_fail  | failed
-test_my_test_error | error
-test_my_test_ok    | successful
----------------------------
-Failed             |
-test_my_test_fail  | AssertionError()
----------------------------
-Errors             |
-test_my_test_error | NameError("global name 'none' is not defined",)
----------------------------
-        Successful | 1
-            Failed | 1
-            Errors | 1
-         Execution | 0.001 seconds
-```
+![ipynbtester](https://raw.githubusercontent.com/markomanninen/ipynbtester/master/test.png "IPython Notebook test results")
 
 ## The [MIT](http://choosealicense.com/licenses/mit/) License
 
