@@ -5,7 +5,7 @@ Forged from runtests (Matt Davis) gist: https://gist.github.com/jiffyclub/401359
 
 ## Usage on IPython Notebooks
 
-### 1. Install and load extension
+### 1. Load extension and runtests module
 
 ```python
 %load_ext ipynbtester
