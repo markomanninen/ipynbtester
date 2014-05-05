@@ -26,6 +26,8 @@ def test_my_test_error():
 
 ### Output
 
+<code>
+
 Collected 2 tests.
 
 Test function name | Status
@@ -44,6 +46,8 @@ test_my_test_error | NameError("global name 'none' is not defined",)
             Failed | 1
             Errors | 1
          Execution | 0.001 seconds
+
+</code>
 
 ## The [MIT](http://choosealicense.com/licenses/mit/) License
 
