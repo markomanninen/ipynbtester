@@ -5,7 +5,7 @@ Forged from runtests (Matt Davis) gist: https://gist.github.com/jiffyclub/401359
 
 ## Usage on IPython Notebooks
 
-### 1. Load extension and runtests module
+### 1. Load extension and runaway module
 
 ```python
 %load_ext ipynbtester
@@ -21,13 +21,13 @@ def test_my_test_fail():
     assert True == False
 
 def test_my_test_error():
-    asert True == False
+    assert True == None
 ```
 
 ### 3. Run tests
 
 ```python
-%runtests
+%runaway
 ```
 
 ### Output
