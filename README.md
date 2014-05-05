@@ -34,6 +34,10 @@ def test_my_test_error():
 
 ![ipynbtester](https://raw.githubusercontent.com/markomanninen/ipynbtester/master/test.png "IPython Notebook test results")
 
+## Wakari document
+
+[IPython Notebook test suite](https://prod-vz-8.wakari.io:9022/notebooks/scripts/ipynbtester/IPython%20Notebook%20test%20suite.ipynb)
+
 ## The [MIT](http://choosealicense.com/licenses/mit/) License
 
 Copyright (c) 2014 Marko Manninen
