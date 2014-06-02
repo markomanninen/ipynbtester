@@ -36,7 +36,7 @@ def test_my_test_error():
 
 ## Wakari document
 
-[IPython Notebook test suite](https://prod-vz-8.wakari.io:9022/notebooks/scripts/ipynbtester/IPython%20Notebook%20test%20suite.ipynb)
+[IPython Notebook test suite](http://nbviewer.ipython.org/github/markomanninen/ipynbtester/blob/master/IPython%20Notebook%20test%20suite.ipynb)
 
 ## The [MIT](http://choosealicense.com/licenses/mit/) License
 
